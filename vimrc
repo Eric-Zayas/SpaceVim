@@ -25,3 +25,10 @@ if 1
     execute 'source' fnamemodify(expand('<sfile>'), ':h').'/main.vim'
 endif
 " vim:set et sw=2
+"
+set ignorecase
+set smartcase
+
+
+highlight! Normal ctermbg=NONE guibg=NONE
+highlight! EndOfBuffer ctermbg=NONE guibg=NONE
