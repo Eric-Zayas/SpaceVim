@@ -10,3 +10,4 @@ execute 'source' fnamemodify(expand('<sfile>'), ':h').'/main.vim'
 
 highlight! Normal ctermbg=NONE guibg=NONE
 highlight! EndOfBuffer ctermbg=NONE guibg=NONE
+set ignorecase
